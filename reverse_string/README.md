@@ -6,8 +6,8 @@ Reverse each word in the input string. The order of the words will be unchanged.
 A word is made up of letters and/or numbers. Other characters (spaces, punctuation) will not be reversed.
 
 ## Summary of Solution
-- The solution is found in src/solution.cpp
-- The test cases are found in src/main.cpp , a lightweight unit_test_framework is used. 
+- The solution is found in [src/solution.cpp](https://github.com/earljohn004/cpp_python_coding/blob/master/reverse_string/src/solution.cpp)
+- The test cases are found in [src/main.cpp](https://github.com/earljohn004/cpp_python_coding/blob/master/reverse_string/src/main.cpp) , a lightweight unit_test_framework is used. 
 
 ### How to run
 1. compile the code using `make`
