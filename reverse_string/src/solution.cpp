@@ -16,11 +16,10 @@
 
 std::string solution::reverse_string(const std::string text){
 
-	auto copy_text = std::move(text);
 	std::stringstream al_numstream {};
 	std::stringstream output {};
 
-	std::for_each( copy_text.begin(), copy_text.end(), [&](auto ch){
+	std::for_each( text.begin(), text.end(), [&](auto ch){
 		if( std::isalnum(ch) ){
 			// When current character is alphanumeric, push to al_numstream
 			al_numstream << ch;
